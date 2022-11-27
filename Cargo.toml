@@ -1,0 +1,10 @@
+[package]
+name = "FMover"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo = "0.26.8"
+walkdir = "2.3.2"
