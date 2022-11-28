@@ -27,7 +27,7 @@ fn main() {
 
     //calculate how much memory to try leave free
     let mut free_memory_percent: u64 = 10; //percentage of memory to leave
-    let mut memory_to_leave: u64 = 7000 * MEGABYTE; //(GetFreeMemory()/100) * FREE_MEMORY_PERCENT;
+    let mut memory_to_leave: u64 = (GetFreeMemory()/100) * FREE_MEMORY_PERCENT;
     let mut file_size_limit = 0;
 
     
